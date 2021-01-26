@@ -1,0 +1,7 @@
+{
+  "name": "bad-history",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
