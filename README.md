@@ -38,7 +38,8 @@ if (routeInfo.lastPathname === routeInfo.pushedByRoute) {
                 }
 ```
 
-### Solution
+### Possible Solution
+I havent tested yet that this doesn't cause any unexpected issues with nested routes or tabbed routing, but I don't see an obvious reason why it would.
 ```typescript
 // @ionic/vue-router#index.js:221-226
 if (routeInfo.lastPathname === routeInfo.pushedByRoute || prevInfo.pathname === routeInfo.pushedByRoute) {
