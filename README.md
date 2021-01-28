@@ -1,7 +1,7 @@
 ## Issue Reproduction
 
 ### Overview
-The back button behavior works for most straightforward cases, but it doesn't always go back directly through the history. 
+The back button behavior works for most straightforward cases, but it sometimes replaces the current route than going back to the next route. 
 
 #### Steps To Reproduce
 
