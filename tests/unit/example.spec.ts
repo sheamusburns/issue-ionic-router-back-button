@@ -1,14 +1,14 @@
 import { mount } from '@vue/test-utils'
-import Folder from '@/views/Folder.vue'
+import Page from '@/views/page.vue'
 
-describe('Folder.vue', () => {
+describe('page.vue', () => {
   it('renders folder view', () => {
     const mockRoute = {
       params: {
         id: 'Outbox'
       }
     }
-    const wrapper = mount(Folder, {
+    const wrapper = mount(Page, {
       global: {
         mocks: {
           $route: mockRoute
