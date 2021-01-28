@@ -19,9 +19,11 @@ run `ionic serve`
 
 #### Expected
 -  Route should be /A and back button should be enabled
+(`history.state.back !== $route.fullPath`)
 
 #### Actual
 - Route is /A and back button is disabled
+(`history.state.back === $route.fullPath`)
 
 
 ### Cause
